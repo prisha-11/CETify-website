@@ -50,25 +50,25 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/hero/analytics-dashboard-light.jpg"
-                  alt="CETify Faculty Analytics Dashboard"
-                  width={520}
-                  height={420}
-                  className="rounded-xl shadow-lg"
-                  priority
-                />
-                <Image
-                  src="/images/hero/analytics-dashboard.jpg"
-                  alt="CETify Faculty Analytics Dashboard"
-                  width={520}
-                  height={420}
-                  className="rounded-xl shadow-lg"
-                  priority
-                />
+              <div className="absolute right-8 top-24 z-10 hidden lg:block">
+  {/* Light mode image */}
+  <Image
+    src="/images/hero/analytics-dashboard-light.jpg"
+    alt="CETify Analytics Dashboard Light"
+    width={700}
+    height={450}
+    className="block dark:hidden rounded-xl shadow-lg"
+  />
 
-              </div>
+  {/* Dark mode image */}
+  <Image
+    src="/images/hero/analytics-dashboard.jpg"
+    alt="CETify Analytics Dashboard Dark"
+    width={700}
+    height={450}
+    className="hidden dark:block rounded-xl shadow-lg"
+  />
+</div>
             </div>
           </div>
         </div>
