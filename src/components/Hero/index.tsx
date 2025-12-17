@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute right-8 top- z-10 hidden lg:block">
+        <div className="absolute right-8 top-32 z-10 hidden lg:block">
 
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
@@ -178,6 +178,8 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
+      </div>
+
         
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
@@ -283,7 +285,8 @@ const Hero = () => {
           </svg>
         </div>
       </section>
-    </div>
+      </>
+    
   );
 };
 
