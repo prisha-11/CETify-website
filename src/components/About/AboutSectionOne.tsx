@@ -58,7 +58,7 @@ const AboutSectionOne = () => {
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/hero/analytics-dashboard.png"
+                  src="/images/hero/analytics-dashboard.jpg"
                   alt="CETify Faculty Analytics Dashboard"
                   width={520}
                   height={420}
