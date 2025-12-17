@@ -52,10 +52,12 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  src="/images/hero/analytics-dashboard-light.jpg"
+                  alt="CETify Faculty Analytics Dashboard"
+                  width={520}
+                  height={420}
+                  className="rounded-xl shadow-lg"
+                  priority
                 />
                 <Image
                   src="/images/hero/analytics-dashboard.jpg"
