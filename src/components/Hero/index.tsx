@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute right-8 top-32 z-10 hidden lg:block">
+        <div className="absolute right-8 top- z-10 hidden lg:block">
   <Image
     src="/images/hero/analytics-dashboard.jpg"
     alt="CETify Analytics Dashboard"
