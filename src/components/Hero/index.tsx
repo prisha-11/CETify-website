@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Hero = () => {
   return (
@@ -35,7 +37,19 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+
+        <div className="absolute right-8 top-32 z-10 hidden lg:block">
+  <Image
+    src="/images/hero/analytics-dashboard.jpg"
+    alt="CETify Analytics Dashboard"
+    width={520}
+    height={420}
+    className="rounded-xl shadow-2xl"
+    priority
+  />
+</div>
+
+        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -172,7 +186,7 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
