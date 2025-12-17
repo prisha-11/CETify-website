@@ -50,7 +50,7 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="absolute right-8 top-24 z-10 hidden lg:block">
+              <div className="absolute right-8 top-32 z-10 hidden lg:block">
   {/* Light mode image */}
   <Image
     src="/images/hero/analytics-dashboard-light.jpg"
