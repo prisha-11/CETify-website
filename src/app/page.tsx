@@ -10,11 +10,15 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Pricing from "@/components/Pricing";
+
 
 export const metadata = {
   title: "CETify | Analytics for MHT-CET Coaching Institutes",
   description:
-    "CETify is a B2B assessment and analytics platform built exclusively for MHT-CET coaching institutes to track batch performance and improve outcomes.",
+  "CETify is a B2B assessment and analytics platform for MHT-CET coaching institutes. Contact: admin@cetify.in",
   openGraph: {
     title: "CETify | Built for MHT-CET Coaching Institutes",
     description:
@@ -32,6 +36,23 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+
+      <section className="py-16 bg-gray-50 dark:bg-gray-dark">
+        <div className="container text-center">
+          <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">
+            Contact CETify
+          </h2>
+          <p className="mb-2 text-body-color dark:text-body-color-dark">
+            For institute demos, partnerships, or queries
+          </p>
+          <a
+            href="mailto:admin@cetify.in"
+            className="text-lg font-semibold text-primary hover:underline"
+          >
+            admin@cetify.in
+          </a>
+        </div>
+      </section>
       {/* <Video /> */}
       {/* <Brands /> */}
       <AboutSectionOne />

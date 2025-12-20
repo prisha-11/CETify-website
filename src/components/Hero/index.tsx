@@ -33,6 +33,16 @@ const Hero = () => {
                     Request Early Access
                   </Link>
                 </div>
+                <p className="mt-6 text-sm text-body-color dark:text-body-color-dark">
+  Prefer email? Reach us at{" "}
+  <a
+    href="mailto:admin@cetify.in"
+    className="font-medium text-primary hover:underline"
+  >
+    admin@cetify.in
+  </a>
+</p>
+
               </div>
             </div>
           </div>
