@@ -20,15 +20,17 @@ const Footer = () => {
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                     © 2025 CETify.in <br />
                     Built exclusively for MHT-CET coaching institutes across Maharashtra.
-                    Contact us:{" "}
+                </p>
+                
+                <div className="flex items-center">
+                Contact us:{" "}
   <a
     href="mailto:admin@cetify.in"
     className="font-medium text-primary hover:underline"
   >
     admin@cetify.in
   </a>
-                </p>
-                
+  </div>
 
                 {/* <div className="flex items-center">
                   <a
