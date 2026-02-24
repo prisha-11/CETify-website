@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Built exclusively for MHT-CET coaching institutes to improve performance with data-backed insights."
       />
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}
