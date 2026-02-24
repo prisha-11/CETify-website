@@ -13,13 +13,6 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Know Exactly What’s Reducing Your CET Percentile.
-                </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Upload your mock test results.
-                  Get topic-wise weakness breakdown and a clear improvement roadmap.
-                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
@@ -37,6 +30,13 @@ const Hero = () => {
                   Limited to first 20 serious CET aspirants. Full refund if not satisfied.
                 </p>
                 </div>
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Know Exactly What’s Reducing Your CET Percentile.
+                </h1>
+                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  Upload your mock test results.
+                  Get topic-wise weakness breakdown and a clear improvement roadmap.
+                </p>
                 <p className="mt-6 text-sm text-body-color dark:text-body-color-dark">
   Prefer email? Reach us at{" "}
   <a
