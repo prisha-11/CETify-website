@@ -25,7 +25,7 @@ const Hero = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Reserve Early Spot at ₹99 ONLY
+                    Reserve Beta Spot – ₹99
                   </Link>
                   {/* <Link
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
@@ -33,6 +33,9 @@ const Hero = () => {
                   >
                     Request Early Access
                   </Link> */}
+                  <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  Limited to first 20 serious CET aspirants. Full refund if not satisfied.
+                </p>
                 </div>
                 <p className="mt-6 text-sm text-body-color dark:text-body-color-dark">
   Prefer email? Reach us at{" "}
