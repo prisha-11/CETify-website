@@ -2,6 +2,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ThemeToggler from "@/components/Header/ThemeToggler";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
@@ -25,6 +26,9 @@ export default function RootLayout({
         <Providers>
           <div className="isolate">
             <Header />
+            <div className="fixed top-4 right-4 z-[10000]">
+              <ThemeToggler />
+            </div>
             {children}
             <Footer />
           </div>
