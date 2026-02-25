@@ -1,7 +1,5 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import ThemeToggler from "@/components/Header/ThemeToggler";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
@@ -24,11 +22,7 @@ export default function RootLayout({
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <div className="isolate">
-            <div className="fixed top-4 right-4 z-[10000]">
-              <ThemeToggler />
-            </div>
             {children}
-            <Footer />
           </div>
           <ScrollToTop />
         </Providers>
