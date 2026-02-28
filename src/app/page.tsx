@@ -41,12 +41,13 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="max-w-3xl">
             <h1 className="mb-6 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-              Know Exactly What&apos;s Reducing Your CET Percentile.
+              Stuck at the Same CET Percentile?
+              See Exactly What’s Holding You Back.
             </h1>
             <p className="mb-8 text-lg leading-relaxed text-white/90 sm:text-xl md:text-2xl">
-              Upload your mock test results.
+              Upload your mock test results and get a clear improvement roadmap.
               <br />
-              Get topic-wise weakness breakdown and a clear improvement roadmap.
+              Built by a CET 87 percentile scorer who faced the same problem.
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
