@@ -1,4 +1,5 @@
 import ScrollUp from "@/components/Common/ScrollUp";
+import Image from "next/image";
 
 export const metadata = {
   title: "CETify | Performance Intelligence for CET Aspirants",
@@ -39,25 +40,41 @@ export default function Home() {
       <section className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-violet-600 to-rose-500 py-24 text-white md:py-32">
         <div className="absolute inset-0 bg-black/10" />
         <div className="container relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="mb-6 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
-              Stuck at the Same CET Percentile?
-              See Exactly What’s Holding You Back.
-            </h1>
-            <p className="mb-8 text-lg leading-relaxed text-white/90 sm:text-xl md:text-2xl">
-              Upload your mock test results and get a clear improvement roadmap.
-              <br />
-              Built by a CET 87 percentile scorer who faced the same problem.
-            </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
-              className="inline-block rounded-md bg-white px-8 py-4 text-lg font-bold text-violet-700 shadow-xl transition hover:bg-gray-100"
-            >
-              Reserve Beta Spot - Rs.99
-            </a>
-            <p className="mt-4 text-sm text-white/85">
-              Limited to first 20 serious CET aspirants. Full refund if not satisfied.
-            </p>
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-12">
+            <div className="max-w-3xl">
+              <h1 className="mb-6 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
+                Stuck at the Same CET Percentile?
+                <br />
+                See Exactly What&apos;s Holding You Back.
+              </h1>
+              <p className="mb-8 text-lg leading-relaxed text-white/90 sm:text-xl md:text-2xl">
+                Upload your mock test results and get a clear improvement roadmap.
+                <br />
+                Built by a CET 87 percentile scorer who faced the same problem.
+              </p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfg8IQVyqkLv76b7654WZ690KaAJRRu6-70BIuY6D2If3yb0A/viewform"
+                className="inline-block rounded-md bg-white px-8 py-4 text-lg font-bold text-violet-700 shadow-xl transition hover:bg-gray-100"
+              >
+                Reserve Beta Spot - Rs.99
+              </a>
+              <p className="mt-4 text-sm text-white/85">
+                Limited to first 20 serious CET aspirants. Full refund if not satisfied.
+              </p>
+            </div>
+
+            <div className="mx-auto w-full max-w-xl lg:ml-auto">
+              <div className="overflow-hidden rounded-2xl border border-white/25 bg-white/10 shadow-2xl backdrop-blur-sm">
+                <Image
+                  src="/images/hero/dashb.png"
+                  alt="CETify mock test analysis dashboard preview"
+                  width={1200}
+                  height={800}
+                  className="h-auto w-full object-cover"
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
